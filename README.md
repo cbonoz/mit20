@@ -1,4 +1,6 @@
-# MIT-Fintech-Challenge
+# Spoofdoctor
+---`
+
 
 ## Datasets:
 We provide three datasets:
