@@ -6,6 +6,18 @@
 # Spoofdoctor
 ---`
 
+Spoofdoctor is an API as a service platform for labelling and detecting spoofing in real time trading data.
+
+## Concept
+
+
+## About the model
+
+
+* Noticed that there are many repeat users in the data set. We one hot encoded these values to be able to incorporate the answer - if a user spoofed before, are they likely to spoof again into our analysis
+* Changed from a naive logistic regression model, into an ensemble Random Forest or XGBoost (gradient boosted) classifier.
+
+
 
 ## Datasets:
 We provide three datasets:
