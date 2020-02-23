@@ -12,7 +12,7 @@ function HeroSection(props) {
 			<div className="columns is-vcentered is-desktop">
 				<div className="column is-5-desktop has-text-centered-touch">
 					<img src={logo} className="center clear" />
-					{props.subtitle}
+					<h1 className="subtitle-text">{props.subtitle}</h1>
 					<SectionButton parentColor={props.color} size="medium" onClick={props.buttonOnClick}>
 						{props.buttonText}
 					</SectionButton>

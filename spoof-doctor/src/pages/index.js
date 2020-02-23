@@ -15,8 +15,8 @@ function IndexPage(props) {
         color="white"
         size="medium"
         title={APP_NAME}
-        subtitle={`Automated and real time trade and spoof detection`}
-        buttonText="Upload a csv"
+        subtitle={`Automated and real time trade spoof detection`}
+        buttonText="Learn more"
         image={logo}
         buttonOnClick={() => {
           router.push("/dashboard");
